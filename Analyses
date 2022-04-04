@@ -39,7 +39,7 @@ netcoma<- pairwise(treat=T,
                    n = crt_n,
                    mean=crt_mean,
                    sd=crt_sd,
-                   data = data,
+                   data = datax,
                    studlab = author_year,
                    sm = "MD")
 
@@ -48,7 +48,7 @@ netpara<- pairwise(treat=T,
                    n = pct_n,
                    mean=pct_mean,
                    sd=pct_sd,
-                   data = data,
+                   data = datax,
                    studlab = author_year,
                    sm = "MD")
                    
@@ -58,7 +58,7 @@ netfever<- pairwise(treat=T,
                    n = fct_n,
                    mean=fct_mean,
                    sd=fct_sd,
-                   data = data,
+                   data = datax,
                    studlab = author_year,
                    sm = "MD")
 
